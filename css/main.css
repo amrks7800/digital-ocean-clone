@@ -117,6 +117,7 @@ ul {
   top: -64px;
   overflow: hidden;
   max-width: 100%;
+  left: 0;
 }
 /* start header */
 header {
@@ -555,6 +556,11 @@ svg {
   overflow: hidden;
   box-shadow: 0 0 5px var(--section-bg-color);
 }
+@media (max-width: 450px) {
+  .saving .container .plans-card {
+    width: 347px;
+  }
+}
 .saving .container .plans-card .head {
   background-color: var(--main-color);
   padding: 30px;
@@ -622,7 +628,7 @@ svg {
 }
 @media (max-width: 400px) {
   .saving .container .plans-card .body .companies {
-    width: 300px;
+    width: 280px;
   }
 }
 .saving .container .plans-card .body .companies:last-of-type {
@@ -856,6 +862,11 @@ footer .last {
   border-top: 3px dotted #ddd;
   margin-bottom: 50px;
 }
+@media (max-width: 991px) {
+  footer .last {
+    flex-direction: column;
+  }
+}
 footer .last .copy-right {
   display: flex;
   align-items: center;
@@ -884,6 +895,13 @@ footer .right-floor,
 footer .middle-floor {
   position: absolute;
   bottom: 0;
+}
+@media (max-width: 991px) {
+  footer .left-floor,
+  footer .right-floor,
+  footer .middle-floor {
+    display: none;
+  }
 }
 footer .right-floor {
   right: 0;
