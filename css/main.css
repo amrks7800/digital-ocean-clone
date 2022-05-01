@@ -555,7 +555,6 @@ svg {
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 0 5px var(--section-bg-color);
-  max-height: 670px;
 }
 @media (max-width: 450px) {
   .saving .container .plans-card {

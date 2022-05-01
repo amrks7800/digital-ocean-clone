@@ -44,3 +44,5 @@ setInterval(() => {
   setActive(2, 3, 10000);
   setActive(3, 0, 15000);
 }, 20000);
+
+// additions ended
